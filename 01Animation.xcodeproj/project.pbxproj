@@ -13,6 +13,8 @@
 		E13E1936213A75050038B275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E13E1935213A75050038B275 /* Assets.xcassets */; };
 		E13E1939213A75050038B275 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E13E1937213A75050038B275 /* LaunchScreen.storyboard */; };
 		E13E193C213A75050038B275 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E193B213A75050038B275 /* main.m */; };
+		E13E1944213A75400038B275 /* iQiYiButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E13E1943213A75400038B275 /* iQiYiButton.m */; };
+		E15A0B45213CC89D009C8FB5 /* YoukuButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E15A0B44213CC89D009C8FB5 /* YoukuButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		E13E1938213A75050038B275 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E13E193A213A75050038B275 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E13E193B213A75050038B275 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E13E1942213A75400038B275 /* iQiYiButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iQiYiButton.h; sourceTree = "<group>"; };
+		E13E1943213A75400038B275 /* iQiYiButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iQiYiButton.m; sourceTree = "<group>"; };
+		E15A0B43213CC89D009C8FB5 /* YoukuButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YoukuButton.h; sourceTree = "<group>"; };
+		E15A0B44213CC89D009C8FB5 /* YoukuButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YoukuButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				E13E192D213A75040038B275 /* AppDelegate.m */,
 				E13E192F213A75040038B275 /* ViewController.h */,
 				E13E1930213A75040038B275 /* ViewController.m */,
+				E15A0B43213CC89D009C8FB5 /* YoukuButton.h */,
+				E15A0B44213CC89D009C8FB5 /* YoukuButton.m */,
+				E13E1942213A75400038B275 /* iQiYiButton.h */,
+				E13E1943213A75400038B275 /* iQiYiButton.m */,
 				E13E1932213A75040038B275 /* Main.storyboard */,
 				E13E1935213A75050038B275 /* Assets.xcassets */,
 				E13E1937213A75050038B275 /* LaunchScreen.storyboard */,
@@ -142,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E13E1931213A75040038B275 /* ViewController.m in Sources */,
+				E13E1944213A75400038B275 /* iQiYiButton.m in Sources */,
 				E13E193C213A75050038B275 /* main.m in Sources */,
+				E15A0B45213CC89D009C8FB5 /* YoukuButton.m in Sources */,
 				E13E192E213A75040038B275 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MZSF9W9UG;
 				INFOPLIST_FILE = 01Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7MZSF9W9UG;
 				INFOPLIST_FILE = 01Animation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
